@@ -1,5 +1,13 @@
+*{
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +43,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.question > span{
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.display > h3 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* =========BUTTONS========= */
+button{
+  background-color: #444;
+  height: 20px;
+  width: auto;
+  border-radius: 5px;
+
 }
