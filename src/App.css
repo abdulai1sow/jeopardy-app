@@ -46,11 +46,18 @@
     transform: rotate(360deg);
   }
 }
+h2{
+  margin-bottom: 30px;
+  border: solid gray;
+  /* width: 140px; */
 
+}
 .question {
   display: flex;
   flex-direction: column;
   width: 500px;
+  border: solid gray;
+  background-color: aqua;
 }
 .question > span{
   padding-bottom: 5px;
@@ -69,8 +76,27 @@ button{
   /* min-width: 80px; */
   width: 100px;
   border-radius: 5px;
-  
 
+}
+.add{
+  background-color: green;
+}
+.add > p{
+  margin-top: 6px
+}
+.reduce{
+  background-color: red;
+}
+.reduce > p{
+  margin-top: 6px;
+}
+.random{
+  background-color: skyblue;
+}
+.show{
+  background-color: navy;
+  color: #fff;
+  font-weight: 400;
 }
 .points > div{
   display: flex;

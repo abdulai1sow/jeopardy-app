@@ -43,20 +43,28 @@ function App() {
       <div className='points'>
         <h2>Score: {points}</h2>
         <div>
-          <button onClick={addScore} className='button add'> <AiOutlineArrowUp style={{ color: '#fff', fontSize: '30px', position:'relative' }} />  Add score</button>
+          <button onClick={addScore} className='button add'> <AiOutlineArrowUp style={{ color: '#fff', fontSize: '30px', float: 'left' }} />
+            <p>
+              ADD
+            </p>
+          </button>
 
           <button onClick={reduceScore} className='button reduce'>
-            <AiOutlineArrowDown style={{ color: '#fff', fontSize: '30px' }} /> Reduce</button>
+            <AiOutlineArrowDown style={{ color: '#fff', fontSize: '30px', float: 'right' }} />
+            <p>
+              REDUCE
+            </p>
+          </button>
         </div>
       </div>
 
       <button onClick={getRandom} className='button random'>
-        Random Quest
+        RANDON QUEST
       </button>
       {question && < Display question={question} />}
 
       <button onClick={showAnswer} className='button show'>
-        Show Answer
+        SHOW ANSWER
       </button>
       {isHidden ? question[0].answer : null}
 
