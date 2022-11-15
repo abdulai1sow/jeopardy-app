@@ -65,9 +65,11 @@
 /* =========BUTTONS========= */
 button{
   background-color: #444;
-  height: 20px;
-  width: auto;
+  height: 40px;
+  /* min-width: 80px; */
+  width: 100px;
   border-radius: 5px;
+  
 
 }
 .points > div{

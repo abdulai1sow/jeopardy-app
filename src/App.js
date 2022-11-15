@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Display from './Display'
 import './App.css'
-
+import { AiOutlineArrowUp, AiOutlineArrowDown } from 'react-icons/ai'
 function App() {
 
 
@@ -43,8 +43,10 @@ function App() {
       <div className='points'>
         <h2>Score: {points}</h2>
         <div>
-          <button onClick={addScore} className='button add'> Add score</button>
-          <button onClick={reduceScore} className='button reduce'>Reduce</button>
+          <button onClick={addScore} className='button add'> <AiOutlineArrowUp style={{ color: '#fff', fontSize: '30px', position:'relative' }} />  Add score</button>
+
+          <button onClick={reduceScore} className='button reduce'>
+            <AiOutlineArrowDown style={{ color: '#fff', fontSize: '30px' }} /> Reduce</button>
         </div>
       </div>
 
