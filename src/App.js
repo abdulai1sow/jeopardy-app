@@ -66,7 +66,11 @@ function App() {
       <button onClick={showAnswer} className='button show'>
         SHOW ANSWER
       </button>
-      {isHidden ? question[0].answer : null}
+      
+      <div className='showAnswer'>
+        {isHidden ? question[0].answer : null}
+
+      </div>
 
 
 
