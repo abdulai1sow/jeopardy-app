@@ -13,7 +13,7 @@ function App() {
 
   const getRandom = async () => {
     try {
-      const res = await fetch('http://jservice.io/api/random')
+      const res = await fetch('https://jservice.io/api/random')
       const data = await res.json()
       setQuestion(data)
       console.log(data);
@@ -58,7 +58,7 @@ function App() {
       </div>
 
       <button onClick={getRandom} className='button random'>
-        RANDON QUEST
+        RANDOM QUEST
       </button>
       {question && < Display question={question} />}
 
