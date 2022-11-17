@@ -80,7 +80,7 @@ button{
   /* min-width: 80px; */
   width: 100px;
   border-radius: 5px;
-
+  cursor: pointer;
 }
 .add{
   background-color: green;
