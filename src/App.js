@@ -37,9 +37,8 @@ function App() {
   }
 
   return (
-
     <div className="App">
-
+      <h1> Lets play Jeopardy 🤓</h1>
       <div className='points'>
         <h2>Score: {points}</h2>
         <div>
