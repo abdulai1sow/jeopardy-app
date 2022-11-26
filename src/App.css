@@ -114,5 +114,60 @@ button{
 }
 .points > h2{
   text-align: center;
-  
+}
+
+/* ============= MEDIA QUIER 375 -- 667 ========= */
+@media (375px <= width <= 667px){
+  .points > h2{
+    font-size: 30px;
+}
+button{
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.add > p{
+  margin-top: 6px
+}
+h1{
+  color: #EB6440;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+.display > h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.question {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  border: solid gray;
+  background-color: aqua;
+}
+.question > span{
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-size: 23px;
+  letter-spacing: 1.5px;
+}
+h4{
+  font-size: 24px;
+}
+.showAnswer{
+  margin-top: 1px;
+  border: solid #fff 1px;
+  font-size: 50px;
+  background-color: #fff;
+}
+h2{
+  width: 240px;
+  margin-left: 75px;
+}
+button{
+  height: 50px;
+}
 }
