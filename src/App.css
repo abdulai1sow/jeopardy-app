@@ -117,7 +117,7 @@ button{
 }
 
 /* ============= MEDIA QUIER 375 -- 667 ========= */
-@media (375px <= width <= 667px){
+@media ( width <= 375px ){
   .points > h2{
     font-size: 30px;
 }
@@ -132,7 +132,7 @@ button{
 }
 h1{
   color: #EB6440;
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 0;
 }
 .display > h3 {
@@ -169,5 +169,12 @@ h2{
 }
 button{
   height: 50px;
+}
+.points > div{
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  gap: 7px;
+  /* margin-left: -9px */
 }
 }
