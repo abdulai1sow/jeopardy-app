@@ -178,3 +178,35 @@ button{
   /* margin-left: -9px */
 }
 }
+
+/* ============= MEDIA QUIER 600 ========= */
+
+@media ( width <= 600px ){
+h1{
+  color: #EB6440;
+  font-size: 55px;
+  margin-bottom: 0;
+}
+h2{
+  width: 350px;
+  font-size: 80px;
+  margin-left: 230px;
+}
+.points{
+  display: flex;
+  flex-direction: column;
+}
+.points > div{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  gap: 7px;
+  /* margin-left: -9px */
+}
+button{
+  height: 130px;
+  width: 400px;
+  font-size: 50px;
+  font-weight: bold;
+}
+}
