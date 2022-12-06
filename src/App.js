@@ -41,7 +41,7 @@ function App() {
       <h1> Lets play Jeopardy 🤓</h1>
       <div className='points'>
         <h2>Score: {points}</h2>
-        <div>
+        <div className='assReduceBtn'>
           <button onClick={addScore} className='button add'> <AiOutlineArrowUp style={{ color: '#fff', fontSize: '30px', float: 'left' }} />
             <p>
               ADD
